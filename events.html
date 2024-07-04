@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="cssstyles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Upcoming Events</h1>
+    </header>
+    <main>
+        <section id="event-list">
+            <article class="event">
+                <h2>Event 1</h2>
+                <p>Date: June 30, 2024</p>
+                <p>Location: New York, NY</p>
+                <button onclick="buyTicket('Event 1')">Buy Ticket</button>
+            </article>
+            <article class="event">
+                <h2>Event 2</h2>
+                <p>Date: July 15, 2024</p>
+                <p>Location: Los Angeles, CA</p>
+                <button onclick="buyTicket('Event 2')">Buy Ticket</button>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Event Planning & Ticketing</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

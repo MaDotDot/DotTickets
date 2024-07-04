@@ -1,0 +1,266 @@
+body{
+    background-color: rgba(red, green, blue, alpha);
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+    margin-bottom: 250px;
+}
+
+header img{
+    width: 190px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    vertical-align: top;
+}
+
+nav li{
+    float: left;
+    vertical-align: top;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 20px ;
+    vertical-align: top;
+   
+}
+
+
+nav ul li a:hover{
+    color: orange;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    color: orange;
+    transition-duration: 2s;
+    
+}
+
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: orange;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+nav ul li:hover::after{
+    width: 100%;
+    margin-left: 1px;
+}
+
+#event{
+    color: orange;
+}
+
+#homePage{
+    color: orange;
+}
+
+#login{
+    width: 25px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-right: 2px;
+}
+
+#cart{
+    width: 25px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-right: 2px;
+}
+
+header button{
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top:8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+header button:hover{
+    background-color: white;
+    color: black;
+}
+
+section#headerImg{
+        background-image: url('blur-Back.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+}
+
+.headerh1{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 0px;
+    font-family:  monospace;
+}
+
+.headerp{
+    margin-top: 0;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#eventPic1 img{
+    width: 350px;
+    margin: 23px;
+    height: 380px;
+}
+
+#eventPic1 div{
+    display: inline-block;
+   text-align: center;
+}
+
+footer{
+    background-image: url('blur-Back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer .quickLinks{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 48px;
+    text-align: start;
+}
+
+.quickLinks a{
+    text-align: start;
+}
+
+.quickLinks h1{
+    text-align: start;
+}
+
+.legalLinks{
+    margin-top: 48px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.legalLinks h1{
+    text-align: center;
+}
+
+.contactUs{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.contactUs h1 {
+    text-align: end;
+}
+
+.contactUs a{
+    text-align: end;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: rgba(230, 155, 17, 0.865);
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+footer h1{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+footer img{
+    width: 50px;
+    margin: 8px;
+}
+
+ #logo{
+    display: inline-block;
+    
+}
+
+section#event{
+    margin-top: 30px;
+}

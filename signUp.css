@@ -1,0 +1,73 @@
+body{
+    background-color: grey;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+   
+}
+
+fieldset{
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+#name{
+    width: 90%;
+    align-items: center;
+    border: 1px solid grey;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#number{
+    width: 90%;
+    align-items: center;
+    border: 1px solid grey;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#password{
+    width: 90%;
+    align-items: center;
+    border: 1px solid grey;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 150px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 185px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 50px;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+div{
+    margin-left: 200px;
+}

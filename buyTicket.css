@@ -1,0 +1,145 @@
+body{
+
+}
+
+header img{
+    width: 30px;
+}
+
+header p{
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 40%;
+}
+
+header button{
+   border: none;
+   margin-right: 0px;
+   margin-left: 0px;
+   padding: 10px 50px;
+   
+} 
+header button a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 900;
+}
+
+#tickets{
+    margin-left: 28%;
+}
+
+#payment{
+    background-color: rgb(70, 70, 70);
+}
+
+#method img{
+    width: 60px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+#method #paymentMethod{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Credit{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#aside{
+    width: 85%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#change{
+    color: blue;
+    display: inline-block   ;
+    
+}
+
+#method {
+    border-bottom: 15px solid rgba(198, 198, 198, 0.543);
+    padding-bottom: 20px;
+}
+
+#add p{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 70%;
+}
+
+#add a{
+    display: inline-block;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#earn p{
+    font-weight: bold;
+    display: inline-block;
+  
+}
+
+#earn img{
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 78%;
+}
+
+#earn a{
+    display: inline-block;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gifts{
+    border-bottom: 15px solid rgba(198, 198, 198, 0.543);
+}
+
+.summary{
+    color: grey;
+    font-weight: bold;
+}
+
+.ticketNumber{
+    color: grey;
+    display: inline-block;
+    margin-right: 85%;
+}
+
+.price{
+    display: inline-block;
+}
+
+.toPay{
+    display: inline-block;
+    margin-right: 84%;
+}
+
+.totalPrice{
+    color: red;
+    display: inline-block;
+}
+
+.payButton{
+    margin-left: 40%;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
